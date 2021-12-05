@@ -3,12 +3,12 @@ var non = document.getElementById('non');
 var repeat  = 0;
 
 function callNon(){
-this.non.classList.add("non");
-let x = Math.floor(Math.random() * 233) ;
-let y = Math.floor(Math.random() * 500) ;
-document.getElementsByClassName('non')[0].style.left = x+"px";
-document.getElementsByClassName('non')[0].style.top = y+"px";
-this.repeat = this.repeat + 1
+    this.non.classList.add("non");
+    let x = Math.floor(Math.random() * 233) ;
+    let y = Math.floor(Math.random() * 500) ;
+    document.getElementsByClassName('non')[0].style.left = x+"px";
+    document.getElementsByClassName('non')[0].style.top = y+"px";
+    this.repeat = this.repeat + 1
 }
 
 function callOui(){
